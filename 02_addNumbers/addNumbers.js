@@ -4,10 +4,23 @@ function addNumbers() {
 
   let result;
 
-  result = "a" + "b"; // <------ EDIT THIS LINE
+  result = a + b; // <------ EDIT THIS LINE
 
   return result;
 }
 
+function addNumbersTwo() {
+  const c = 2;
+  const d = 2;
+
+  let result2;
+
+  result2 = c + d;
+  return result2;
+}
+
 // Do not change this
-module.exports = addNumbers;
+module.exports = {
+  addNumbers,
+  addNumbersTwo
+}
